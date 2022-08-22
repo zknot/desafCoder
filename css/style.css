@@ -58,7 +58,13 @@ h1 {
     font-family: 'Nunito';
     background-color: #E5A4CB;
     width: 100%;
-    color: white;
+    color: white;  
+}
+
+h1:hover{
+    color: #7F055F;
+    text-decoration: underline;
+    transition: .3s;
 }
 
 h2 {
