@@ -6,13 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/img/Logo.png">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
     <title>Mimilu's</title>
 </head>
 
 <body>
         <header class="header">
-            <a href="./index.html"><img src="./assets/img/milogo.png" class="logoPrincipal" alt="Logo Mimilus"></a>
+            <a href="./index.html"><img src="./assets/img/milogo.png" class="logoPrincipal animate__animated animate__bounceIn" alt="Logo Mimilus"></a>
                 <nav>
                     <ul>
                         <li><a href="index.html">Inicio</a></li>
@@ -24,7 +28,27 @@
                 </nav>   
         </header>
     <main class="main-index">
-        <h1 class="tituloIndex">Mimilu's ropa hecha con amor</h1>
+        <h1 class="tituloIndex animate__animated animate__fadeInLeft">Mimilu's ropa hecha con amor</h1>
+
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
             <div class="vestidosIndex">
                 <div><img src="./assets/vestidos/vestido1.jpg" alt="vestidoRosa"><p>Vestido Rosa</p></div>
                 <div><img src="./assets/vestidos/vestido2.jpg" alt="vestidoAzul"><p>Vestido Azul</p></div>
@@ -43,5 +67,9 @@
     <p>Todos los derechos reservados 2022, Mi sitio web. Diseñado por: Martín Sanchez</p>
     </footer>
     </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
